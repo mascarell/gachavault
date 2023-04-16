@@ -1,0 +1,34 @@
+/*!
+Theme Name: Gacha Vault
+Theme URI: https://github.com/mascarell
+Author: Mascarell
+Description: Wordpress theme for the gacha vault
+Version: 1.1.8
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;900&display=swap');
+
+body{
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+}
+
+.timeline{
+	background-color: rgb(241, 241, 241);
+}
+.timeline-post p{
+	margin-bottom: .5rem;
+	font-size: .9rem;
+}
+.timeline-post a{
+	color: rgb(32, 83, 224);
+}
+
+/* Tablets */
+@media only screen and (min-width : 48em){
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 62em){
+}
