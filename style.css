@@ -21,7 +21,7 @@ body{
 	margin-bottom: .5rem;
 	font-size: .9rem;
 }
-.timeline-post a{
+.timeline-post a:not(.tag){
 	color: rgb(32, 83, 224);
 }
 

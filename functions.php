@@ -78,4 +78,24 @@ function new_excerpt_more( $more )
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
+function custom_tag_output( $tags ) {
+	$output = '';
+	if ( $tags ) {
+		$i = 1;
+		foreach ( $tags as $tag ) {
+			if ( $i == 1 ) {
+				$output .= '<a href="' . get_tag_link($tag->term_id) . '" class="tag text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full mr-1">' . $tag->name . '</a>';
+			} elseif ( $i == 2 ) {
+				$output .= '<a href="' . get_tag_link($tag->term_id) . '" class="tag text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full mr-1">' . $tag->name . '</a>';
+			} elseif ( $i == 3 ) {
+				$output .= '<a href="' . get_tag_link($tag->term_id) . '" class="tag text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-pink-200 text-pink-700 rounded-full">' . $tag->name . '</a>';
+			} else {
+				$output .= 'a href="' . get_tag_link($tag->term_id) . '" class="tag text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-pink-200 text-pink-700 rounded-full">' . $tag->name . '</a>';
+			}
+			$i++;
+		}
+	}
+	return $output;
+}
+
 ?>
