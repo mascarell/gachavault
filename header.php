@@ -29,7 +29,7 @@
 		<div class="lg:flex">
 			<div class="relative mt-6 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12">
 				<p class="text-gray-600 lg:w-11/12">
-					We're a public and <a class="text-blue-700" href="http://" target="_blank" rel="noopener noreferrer">open source</a> database of gacha games that have reached the end of their life, also known as EoS. If you want to add a game to the vault, you can do it <a class="text-blue-700" href="https://tally.so/r/wL9xoj" target="_blank" rel="noopener noreferrer">here</a>.
+					We're a public and <a class="text-blue-700" href="https://github.com/mascarell/gachavault" target="_blank" rel="noopener noreferrer">open source</a> database of gacha games that have reached the end of their life, also known as EoS. If you want to add a game to the vault, you can do it <a class="text-blue-700" href="https://tally.so/r/wL9xoj" target="_blank" rel="noopener noreferrer">here</a>.
 				</p>
 				<span class="block mt-4 text-gray-600">Made by <a class="text-blue-700" href="http://twitter.com/sefhi_" target="_blank" rel="noopener noreferrer">Sefhi</a>. You can support the website on <a class="text-blue-700" href="http://patreon.com/lootandwaifus" target="_blank" rel="noopener noreferrer">Patreon.</a></span>
 			</div>
