@@ -81,6 +81,7 @@ add_filter( 'excerpt_more', 'new_excerpt_more' );
 function custom_tag_output( $tags ) {
 	$output = '';
 	if ( $tags ) {
+		$tags = array_reverse( $tags ); // reverse the order of the tags
 		$i = 1;
 		foreach ( $tags as $tag ) {
 			if ( $i == 1 ) {
